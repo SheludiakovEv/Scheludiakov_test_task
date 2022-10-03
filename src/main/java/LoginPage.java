@@ -35,7 +35,6 @@ public class LoginPage {
     private WebDriver driver;
 
     public void openPage() {   //Открываем ссылку приложения
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
         driver.get("https://release-17.gdcloud.org");
     }
 
